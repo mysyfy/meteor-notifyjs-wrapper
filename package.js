@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.addFiles(['notify.js','notify-wrapper.js'], 'client');
+  api.addFiles(['notify.js','notifyjs-wrapper.js'], 'client');
 });
 
 Package.onTest(function(api) {
